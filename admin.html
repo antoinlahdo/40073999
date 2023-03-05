@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Admin</title>
+    <meta name="description" content="This is the Admin page" />
+
+    <style>
+        nav {
+            overflow: hidden;
+            background-color: rgb(201, 201, 156);
+            margin-top: -5px;
+            text-align: center;
+        }
+
+        body {
+            margin: auto;
+            padding: 10px;
+            font-family: Arial;
+            background-color: beige;
+        }
+
+        a {
+            top: 50%;
+            left: 50%;
+            padding: 10px 30px;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <br>
+        <b><a href="index.html" target="blank">Home</a></b>
+
+        <b><a href="resume.html" target="blank">Resume</a></b>
+
+        <b><a href="projects.html" target="blank">Projects</a></b>
+
+        <b><a href="contact.html" target="blank">Contact</a></b>
+
+        <b><a href="social.html" target="blank">Social</a></b>
+
+        <b><a href="admin.html" target="blank">Admin</a></b>
+        <br><br>
+    </nav>
+    <br>
+    <div>
+        <form method="post">
+            <div style="text-align: justify;">
+                <label for="user-name">User-Name</label>
+                <input type="text" name="username" id="user-name" /> <br><br>
+            </div>
+            <div style="text-align: justify;">
+                <label for="pass">Password:</label>
+                <input type="password" name="password" id="pass" /><br><br>
+            </div>
+            <div style="text-align: justify; padding-inline-start: 100px;">
+                <input type="submit" value="Login" />
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

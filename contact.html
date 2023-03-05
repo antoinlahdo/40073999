@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+    <meta name="description" content="This is the Contact page" />
+
+    <style>
+        nav {
+            overflow: hidden;
+            background-color: rgb(201, 201, 156);
+            margin-top: -5px;
+            text-align: center;
+        }
+
+        body {
+            margin: auto;
+            padding: 10px;
+            font-family: Arial;
+            background-color: beige;
+        }
+
+        a {
+            top: 50%;
+            left: 50%;
+            padding: 10px 30px;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <br>
+        <b><a href="index.html" target="blank">Home</a></b>
+
+        <b><a href="resume.html" target="blank">Resume</a></b>
+
+        <b><a href="projects.html" target="blank">Projects</a></b>
+
+        <b><a href="contact.html" target="blank">Contact</a></b>
+
+        <b><a href="social.html" target="blank">Social</a></b>
+
+        <b><a href="admin.html" target="blank">Admin</a></b>
+        <br><br>
+    </nav>
+    <div>
+        <h3>Contact</h3>
+    </div>
+
+    <div>
+        <form method="post">
+            <div style=" text-align: left;">
+                <label for="fullname">Name:</label>
+                <input type="text" name="name" id="fullname" /> <br><br>
+            </div>
+            <div style=" text-align: left;">
+                <label for="email">Email:</label>
+                <input type="email" name="emial" id="email" /><br><br>
+            </div>
+            <div style=" text-align: left;">
+                <label for="phonenum">Phone-Number</label>
+                <input type="tel" name="phone" id="phonenum" /><br><br>
+            </div>
+            <div style=" text-align: left;">
+                <label for="messagebox">Message</label><br>
+                <textarea name="message" id="messagebox" cols="20">  </textarea>
+            </div>
+            <br />
+            <div>
+                <input type="submit" value="send" />
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
